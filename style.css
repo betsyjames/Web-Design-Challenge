@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray; 
+    background-image: linear-gradient(gray, skyblue);
 }
 .navbar{
     max-height: 57px; 
@@ -10,7 +10,7 @@ body{
     padding: inherit; 
     font-weight: bold; 
     background-color: #15b1a9;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 .navbar{
     background-color: white; 
@@ -48,13 +48,13 @@ img{
 
 .title{
     color: #0BADA6;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
 }
 .imagetitle{
     color: #0BADA6;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
     text-align: center
@@ -70,7 +70,7 @@ p{
     margin-bottom: 62px; 
     padding: 10px 20px 15px;
     color:black;
-    background-color: white; 
+    background-color:white; 
 
   }
 
@@ -79,7 +79,7 @@ p{
     border-top-color: white; 
 }
 /* Media Queries */
-@media(max-width: 700px){
+@media(max-width: 800px){
 .navbar-expand-lg{
 background-color: #0BADA6;
 }
